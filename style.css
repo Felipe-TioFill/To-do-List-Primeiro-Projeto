@@ -18,3 +18,58 @@ body {
     align-items: center;
     gap: 4rem;
 }
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.content_add_item {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+#input_new_product,
+#btn_new_product {
+    border: none;
+    font-size: 1rem;
+    outline: none;
+    padding: 1rem;
+}
+
+#input_new_product {
+    width: 20rem;
+    border-radius: 1rem;
+}
+
+#btn_new_product {
+    background-color: var(--color-dark2);
+    color: var(--color-white);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    transition: .4s;
+}
+
+#btn_new_product:hover {
+    background-color: var(--color-dark3);
+}
+
+#to_do_list {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    gap: 1rem;
+}
+
+#to_do_list li {
+    list-style-type: none;
+    font-size: 1.4rem;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: space-between;
+}
